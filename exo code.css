@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    font-family: 'Montserrat';
+}
+.bleu{ font-size: smaller}
+.ital{color:blue}
+.vert{font-size:large;
+  color: #008000;}
+  .red{text-align: center; 
+    color:#FF0000}
+    .space {word-spacing: 10px;
+    letter-spacing: -1;}
+    .ombre{text-shadow:0.1em 0.1em #333}
+    
+/*fin du premiere exo */
+.span0{ background-color: white;
+    border: 3px blue solid
+
+}
+.span1{ 
+    background-color: rgb(47, 8, 243);
+    border:10px black    dotted
+}
+
+.span2{ 
+      background-color: orange; 
+      border: 5px blue double ;
+      border-top: 0,08cm;
+  }
+.span3{background-image: url(téléchargement.jpg); 
+    color:white
+
+}
+a:hover{color:red}
+
+section{margin-left: 50px;}
+
+ /*fin du deuxième exo*/   
+.spana{ 
+ box-shadow: 3px 3px rgb(5, 67, 236), -1em 0 .4em rgb(247, 5, 203);
+    ;
+}
+.spanb::selection {
+    color: red;
+    background: yellow;
+  }
+  .spanc{background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);}
+  .spand{background: radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c);}
+  .spane{background-image: url("téléchargement.jpg"),
+    url("lézard.jpg");
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat}
+
+ .spanf{opacity : 0.6;}
+
+    /*fin du troisième exo*/
+
+    .carre{
+      width  : 50px;
+      height : 50px;
+      background : rgb(225, 245, 7);
+     
+    }
+
+    .carre:hover{
+      transition-duration: 2s;
+      position: absolute;
+      width : 1500px ;
+background : rgba(98, 245, 7, 0.46);  
+   
+    }
+
+    .rectangle{width:400px;
+      height:200px;
+      background:#069
+     ;
+
+    }
+
+    .rectangle{
+      transform:  rotate(20deg);
+
+    }
+
+    .cercle {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      background: green;
+
+    }
+    .cercle:hover{
+      width:120px;
+      height:120px;
+      border-radius:60px;
+      background:rgb(5, 67, 236);
+      transition-duration: 2s;
+    }
+
+
+
+
+
